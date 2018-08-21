@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="newAccount">
+            <label for="account">New Account</label><br>
+            <input type="text" id="inputName"><br>
+            <label for="deposit">First Deposit</label><br>
+            <input type="number" id="inputFirstDep"><br>
+        </div>
+        <div class="col-md-6">
+            <label for="deposit">Make a deposit</label><br>
+            <input type="number" id="ongoingDeposit"><br>
+            <label for="withdrawal">Make a withdrawal</label><br>
+            <input type="number" id="ongoingWithdrawal"><br>
+            <button type="submit" class="btn btn-info" id="submit2">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="balance">
+        <h3 id="balance">Your balance:</h3>
+      </div>
+    </div>
+  </body>
+</html>
